@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ігроманія</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" /> 
+    <script defer src="header.js"></script>   
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+    </style>
+    <header id="header" class="header">
+        <a href="#" class="logo">
+            <i class="fa-solid fa-gamepad"></i>Ігроманія
+        </a>
+    
+        <nav class="navbar">
+          <a class="home_btn" href="#home">Додому</a>
+          <a href="#games" id="productsBtn">Ігри</a>
+          <a href="#contacts" onclick="document.getElementById('submit').scrollIntoView({behavior: 'smooth'});">Контакти<a>
+            
+        </nav>
+       
+      </header>
+      <section class="products" id="games">
+        <h1 class="heading">ігри</h1>
+        
+        <div class="box-container">
+            <div class="card">
+                <div class="image">
+                    <img src="https://play-lh.googleusercontent.com/XjV1yPw7p_TTVEqWzG4cn1Bx3SKV6QY6Ue5IH71mCPxEs_EwDeC9DKouQ0QkRZdQRA" alt="" />
+                </div>
+                <div class="content">
+                    <h3>Змійка</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <button class="mobile-button" onclick="location.href='igra.html'"><i class="fa-solid fa-play"></i></button>
+                    <i class="fas fa-heart"></i>
+                    <button id="video1"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+            
+            <div class="card" data-id="tetris12">
+                <div class="image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/640px-Typical_Tetris_Game.svg.png" alt="" />
+                </div>
+                <div class="content">
+                    <h3>тетріс</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <button class="mobile-button" onclick="location.href='tetris1.html'"><i class="fa-solid fa-play"></i></button>
+                    <button class="heart"> <i class="fas fa-heart"></i></button>
+                    <button id="video"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+
+            <div class="card" data-id="pacman">
+                <div class="image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzBnRKFdA5EBcvH12QaddZisTgxV9iL_myHA&s" alt="" />
+                </div>
+                <div class="content">
+                    <h3>Пакмен</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <button class="mobile-button" onclick="location.href='pac-man.html'"><i class="fa-solid fa-play"></i></button>
+                    <button class="heart"> <i class="fas fa-heart"></i></button>
+                    <button id="video2"><i class="fas fa-eye"></i></button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+<main>
+    <section class='section3' id='submit'>
+        <section class="contacts">
+            <h1>Контакти</h1>
+            <div class="section_row">
+                <div class="section_item">
+                    <a href="https://www.instagram.com/_sani__4ka_/"><img src="Instagram_icon.png.webp"></a>
+                    <div class="section_item">
+                        <a href="https://www.instagram.com/serdee_05?igsh=MTVucnQ2dHk5dmF1bg=="><img src="Instagram_icon.png.webp"></a>
+                        <div class="section_item">
+                            <a href="https://www.instagram.com/Tuktular/"><img src="Instagram_icon.png.webp"></a>
+                </div>
+                </div>
+            </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
